@@ -3,6 +3,13 @@ from rclpy.node import Node
 from geometry_msgs.msg import Twist
 
 
+
+import sys
+print(sys.executable)
+print(sys.path)
+
+
+
 # from custom messages import the custom message
 
 import pygame

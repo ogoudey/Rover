@@ -11,7 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools', 'gpiozero', 'pygame'],
     zip_safe=True,
     maintainer='olin',
     maintainer_email='olin.goog@gmail.com',
